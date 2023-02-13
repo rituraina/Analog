@@ -17,7 +17,7 @@
     margin: auto;
     height: 34vw;
     width: 34vw; 
-    background: url(/clock1.png)no-repeat;
+    background: url(clock1.png)no-repeat;
     background-size: 100%;
 }
 .clock{
