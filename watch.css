@@ -1,0 +1,64 @@
+.main_heading{
+    text-align: center;
+    font-family: cursive;
+    font-family: "Audiowide", sans-serif;
+    background-color: black;
+    color: white;
+    width: 20%;
+    border-radius: 3PX;
+    margin-bottom: 0;
+}
+/* H4{
+    background-color: black;
+    color: white; */
+
+#clockContainer{  
+    position: relative;
+    margin: auto;
+    height: 34vw;
+    width: 34vw; 
+    background: url(/clock1.png)no-repeat;
+    background-size: 100%;
+}
+.clock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   /* border: 5px solid blueviolet; */
+    
+}
+.navbar a{
+    text-decoration: none;
+}
+
+#hour, #minute, #sec{
+    position: absolute;
+    background: black;
+    border-radius: 10px; 
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.8%;
+    height: 11%;
+    top: 40.5%;
+    left: 49.20%;
+    opacity: 0.8;
+    /* display: none;  */
+}
+#minute{
+    width: 1.6%;
+    height: 17%;
+    top: 35%;
+    left: 49.8%;
+    opacity: 0.8;
+    /* display: none;  */
+}
+#sec{
+    width: 1%;
+    height: 23%;
+    top: 29%;
+    left: 50.35%;
+    opacity: 0.8; 
+    /* display: none; */
+}
